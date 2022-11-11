@@ -11,17 +11,21 @@ body {
 font-family: "Roboto", sans-serif;
 }
 .container {
-    width: 1140px;
-    margin: auto                                                    ;
+    width: 90%;
+    margin: 0 auto;                                                   ;
 }
 
 #header {
-    position: fixed;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
     width: 100%;
     background: #ffffff;
     z-index: 99;
     padding: 20px 0;
     box-shadow: 0 4px 4px rgb(0, 0, 0, 0.4);
+
+
 }
 
 
@@ -44,7 +48,7 @@ font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
 }
 
 
@@ -84,8 +88,10 @@ font-family: "Roboto", sans-serif;
     color: rgba(31, 46, 53, 0.8);
     transition: 0.4s;
 }
-.hero {
+#hero {
     padding: 100px 0;
+    overflow: hidden;
+
 }
 
 
@@ -234,7 +240,15 @@ justify-content: space-between;
     align-items: center;
     justify-content: space-between;
 }
-
+.blocks button:hover {
+    background: transparent;
+    color: #EE4248;
+    border: 2px solid #EE4248;
+    transform: scale(0.8);
+}
+.blocks button {
+    transition: .4s;
+}
 #contact {
     padding: 100px 0;
 }
