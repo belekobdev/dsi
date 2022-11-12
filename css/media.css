@@ -200,7 +200,7 @@
     }
 
 }
-@media (max-width: 407px) {
+@media (max-width: 409px) {
     .comp p {
         font-size: 12px;
     }
@@ -224,6 +224,9 @@
         font-size: 17px;
     }
 }
+
+
+
 
 
 
