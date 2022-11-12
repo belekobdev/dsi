@@ -130,6 +130,16 @@
     .footer h1 {
         font-size: 17px;
     }
+    .hero-title button {
+        width: 124px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .block button {
+        width: 104px;
+        height: 34px;
+        font-size: 14px;
+    }
 }
 @media (max-width: 376px) {
     .hero-title h1 {
@@ -143,6 +153,16 @@
     }
     .footer h1 {
         font-size: 16px;
+    }
+    .hero-title button {
+        width: 130px;
+        height: 36px;
+        font-size: 16px;
+    }
+    .block button {
+        width: 104px;
+        height: 34px;
+        font-size: 14px;
     }
 
 }
@@ -167,6 +187,16 @@
     }
     .footer h1 {
         font-size: 10px;
+    }
+    .hero-title button {
+        width: 112px;
+        height: 31px;
+        font-size: 14px;
+    }
+    .block button {
+        width: 96px;
+        height: 31px;
+        font-size: 14px;
     }
 
 }
